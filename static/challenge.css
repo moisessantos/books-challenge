@@ -1,0 +1,23 @@
+body {
+    margin: 2rem 4rem;
+}
+
+h2 {
+    margin: 3rem 0 1rem;
+}
+
+ul {
+    list-style-type: upper-roman;
+}
+
+li {
+    margin-left: 1rem;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
