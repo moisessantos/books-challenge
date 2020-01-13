@@ -1,3 +1,51 @@
 h1 {
-    color: green;
+    color: #59A5E7;
+    text-align: center;
+    margin: 3rem 0 5rem !important;
+}
+
+.flex {
+    display: flex;
+    vertical-align: middle;
+}
+
+.filterContainer {
+    margin: 2rem 4rem;
+    justify-content: space-between;
+}
+
+
+.filter {
+    padding-top: 4px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    color: #495057;
+    cursor: text;
+}
+
+.filter > input {
+    border-width: 0;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+.filter > input:focus {
+    outline: 0;
+}
+
+.filter > svg {
+    position: absolute;
+    padding-top: 0.5rem;
+    float: right;
+    right: 1rem;
+}
+
+.spinner-grow {
+    height: 5rem;
+    width: 5rem;
+    margin: auto;
+}
+
+.page-link {
+    color: black !important;
 }
